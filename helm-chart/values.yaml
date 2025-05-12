@@ -1,0 +1,13 @@
+appName: frontend-app
+serviceName: frontend-service
+
+
+containers: 
+  name: nextjs-app
+  image: nextjs-app-new
+  tag: latest
+
+ports: 
+  port: 3000
+  targetPort: 3000
+  nodePort: 30001
